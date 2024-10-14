@@ -1,6 +1,6 @@
 ## AJS_Async-Promises
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/cgkfnwrd2wuu2i9m?svg=true)](https://ci.appveyor.com/project/CoolPaK/ajs-async-promises)
 ---
 # Домашнее задание к лекции «Promises, async/await»
 
@@ -93,5 +93,5 @@ GameSavingLoader.load().then((saving) => {
 });
 ```
 
-Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете. Обратите внимание, что вы тестируете асинхронный код.
+## Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете. Обратите внимание, что вы тестируете асинхронный код.
 ---
