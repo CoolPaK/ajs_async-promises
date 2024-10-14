@@ -1,9 +1,9 @@
 import GameSavingLoader from '../js/GameSavingLoader.js';
-import read from './reader.js';
-import json from './parser.js';
+import read from '../js/reader.js';
+import json from '../js/parser.js';
 
-jest.mock('./reader.js');
-jest.mock('./parser.js');
+jest.mock('../js/reader.js');
+jest.mock('../js/parser.js');
 
 describe('GameSavingLoader', () => {
   it('should load game saving correctly', async () => {
